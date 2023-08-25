@@ -41,6 +41,8 @@ const Event = sequelize.define('event', {
     city: {type: DataTypes.STRING, allowNull: false},
     contactsdetails: {type: DataTypes.STRING, allowNull: false},
     active: {type: DataTypes.BOOLEAN, defaultValue:true},
+    img : {type: DataTypes.STRING,  allowNull: true},
+    price : {type: DataTypes.INTEGER,  allowNull: true},
     
 })
 
